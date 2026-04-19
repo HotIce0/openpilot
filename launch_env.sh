@@ -20,3 +20,7 @@ if [ -z "$AGNOS_VERSION" ]; then
 fi
 
 export STAGING_ROOT="/data/safe_staging"
+
+# Hotice0 todo fix fingerprint
+export FINGERPRINT="BYD_HAN_EV_23"
+export SKIP_FW_QUERY=True
